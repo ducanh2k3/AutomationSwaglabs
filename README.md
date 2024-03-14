@@ -88,11 +88,26 @@ Steps:
 Expected result:
 #9 The data display should be matched with filled data in step #7
 #10 The order completed page should display with message "Thank you for your order!"
+
 Test Case 2 :
 Steps:
 1.Access to sauce demo website
 2.Login with locked_out_user
 3.Verify the url
+Expected result:
+#1 The url shouldn't change
+#2 The warning should display with message "Epic sadface: Sorry, this user has been locked out."
+
+Test Case 3 :
+Steps:
+1.Access to sauce demo website
+2.Login with problem_user
+3.Verify the url
+4.Compare the src of all images of item
+Expected result:
+#1 The website should navigate to Home Page
+#2 The src of all images should be the same.
+
 
 
 
