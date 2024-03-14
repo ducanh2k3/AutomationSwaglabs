@@ -71,6 +71,31 @@ swag-labs-automation/
 │
 └── README.md                            # This file
 
+Test Case :
+Test Case 1 :
+
+Steps:
+1.Access to sauce demo website
+2.Login with standard user
+3.Select first product
+4.In production detail page, click Add to cart button
+5.Navigate to cart page
+6.Click on checkout button
+7.Fill checkout information. Example: Lastname: Quang, firstname: Le, Zipcode: 70000
+8.Click continue button
+9.Double check data, compare with filled data
+10.Click finish button
+Expected result:
+#9 The data display should be matched with filled data in step #7
+#10 The order completed page should display with message "Thank you for your order!"
+Test Case 2 :
+Steps:
+1.Access to sauce demo website
+2.Login with locked_out_user
+3.Verify the url
+
+
+
 
 
 
