@@ -40,7 +40,9 @@ For Maven, add the following dependency to your `pom.xml`:
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
       <version>5.2.3</version>
-Project Structure
+  </dependency>
+
+#Project Structure
 swag-labs-automation/
 
 │
